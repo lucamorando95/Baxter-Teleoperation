@@ -36,18 +36,18 @@ For doing this:
 
 3. For replaying the movement: "rosrun baxter_examples Joint_trajectory_file_playback.py -f <nomefile>.txt
 
-4.launch mocap node 
+ 4.launch mocap node 
 
-5.launch sync_node.cpp in a new terminal with command "rosrun sync sync_node".
+ 5.launch sync_node.cpp in a new terminal with command "rosrun sync sync_node".
 
 6. export the dataset on MATLAB workspace and transform the txt file in matrix of value with import tools. 
 
 7.Use Preprocessing_neural.m for setting  shoulder as referred frame for each arm section.
 
 8.Training the Neural Network with human_coordinate as input and Joint position value of baxter as output. 
-  The neural network script is inside the folder Neural Network (for more information see report attached to this github     project).
+  The neural network script is inside the folder Neural Network (for more information see report attached to this github      project).
  
- 9. Use Robot_Teleoperation.m in order to see the result!
+9. Use Robot_Teleoperation.m in order to see the result!
  
  # Credit
  Author: Luca Morando, Valetina Pericu
